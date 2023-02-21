@@ -49,7 +49,7 @@ except URLError as e:
   streamlit.error()
 
 
-streamlit.header("The fruit load list contains:")
+streamlit.header("View Our First List - Add your Favourites!")
 #snowflake-relation function
 def get_fruit_load_list():
   with my_cnx.cursor() as my_cur:
